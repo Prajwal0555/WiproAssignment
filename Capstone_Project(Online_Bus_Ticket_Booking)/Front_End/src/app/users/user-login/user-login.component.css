@@ -1,0 +1,90 @@
+.login-container {
+  max-width: 400px; /* Matches max-width of .container */
+  margin: auto; /* Centers the container */
+  padding: 20px; /* Matches padding of .container */
+  background-color: #f8f9fa; /* Matches background color of .container */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Matches box-shadow of .container */
+  border-radius: 8px; /* Matches border-radius of .container */
+}
+
+.login-container h2 {
+  text-align: center; /* Centers the heading */
+  margin-bottom: 20px; /* Adds margin-bottom like in .container */
+}
+
+.form-group {
+  margin-bottom: 15px; /* Matches margin-bottom of .form-control */
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #495057; /* Matches .form-label */
+}
+
+.form-group input {
+  width: calc(100% - 20px); /* Matches width calculation of .form-control */
+  padding: 10px; /* Matches padding of .form-control */
+  margin-bottom: 15px; /* Matches margin-bottom of .form-control */
+  border: 1px solid #ced4da; /* Matches border of .form-control */
+  border-radius: 4px; /* Matches border-radius of .form-control */
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; /* Matches transition of .form-control */
+}
+
+.form-group input:focus {
+  border-color: #007bff; /* Matches focus border-color of .form-control */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Matches focus box-shadow of .form-control */
+}
+
+button {
+  width: calc(100% - 20px); /* Matches width calculation of .btn-primary */
+  padding: 10px 20px; /* Matches padding of .btn-primary */
+  border: none; /* Matches border of .btn-primary */
+  border-radius: 4px; /* Matches border-radius of .btn-primary */
+  background-color: #007bff; /* Matches background-color of .btn-primary */
+  color: #fff; /* Matches color of .btn-primary */
+  font-size: 16px; /* Matches font-size of .btn-primary */
+  cursor: pointer; /* Matches cursor of .btn-primary */
+  margin-top: 10px; /* Adds margin-top like in .btn-primary */
+}
+
+button:hover {
+  background-color: #0056b3; /* Matches hover background-color of .btn-primary */
+}
+
+.success-message {
+  color: #155724; /* Matches color of .alert-success */
+  text-align: center; /* Centers the success message */
+  margin-top: 20px; /* Adds margin-top like in .alert-success */
+}
+
+.error-message {
+  color: #721c24; /* Matches color of .alert-danger */
+  text-align: center; /* Centers the error message */
+  margin-top: 20px; /* Adds margin-top like in .alert-danger */
+}
+
+.welcome-container {
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  text-align: center; /* Center text */
+  background: linear-gradient(to bottom right, #e794f6, #8f94fb); /* Adjust gradient colors as needed */
+  color: #fff; /* Text color */
+  font-family: Arial, sans-serif; /* Font family */
+  padding: 20px;
+}
+
+.welcome-container h1 {
+  font-size: 2.5rem; /* Adjust heading font size */
+  margin-bottom: 10px;
+}
+
+.welcome-container p {
+  font-size: 1.2rem; /* Adjust paragraph font size */
+  margin-bottom: 20px;
+}
+

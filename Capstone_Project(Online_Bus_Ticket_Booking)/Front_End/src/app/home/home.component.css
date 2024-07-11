@@ -1,0 +1,22 @@
+.welcome-container {
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Center text */
+    background: linear-gradient(to bottom right, #4e54c8, #3ffbbf); /* Adjust gradient colors as needed */
+    color: #fff; /* Text color */
+    font-family: Arial, sans-serif; /* Font family */
+    padding: 20px;
+}
+
+.welcome-container h1 {
+    font-size: 2.5rem; /* Adjust heading font size */
+    margin-bottom: 10px;
+}
+
+.welcome-container p {
+    font-size: 1.2rem; /* Adjust paragraph font size */
+    margin-bottom: 20px;
+}

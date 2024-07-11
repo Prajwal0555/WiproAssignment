@@ -1,0 +1,94 @@
+/* Centering the login container */
+.login-container {
+  max-width: 400px;
+  margin: 20px auto; /* Centering the container vertically and horizontally */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px; /* Add margin below the label */
+}
+
+input[type="email"],
+input[type="password"] {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff; /* Blue background */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center; /* Center-align text */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.success-message,
+.error-message {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.success-message {
+  background-color: #DFF0D8;
+  border: 1px solid #3C763D;
+  color: #3C763D;
+}
+
+.error-message {
+  background-color: #F2DEDE;
+  border: 1px solid #A94442;
+  color: #A94442;
+}
+
+
+.welcome-container {
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  text-align: center; /* Center text */
+  background: linear-gradient(to bottom right, #e794f6, #8f94fb); /* Adjust gradient colors as needed */
+  color: #fff; /* Text color */
+  font-family: Arial, sans-serif; /* Font family */
+  padding: 20px;
+}
+
+.welcome-container h1 {
+  font-size: 2.5rem; /* Adjust heading font size */
+  margin-bottom: 10px;
+}
+
+.welcome-container p {
+  font-size: 1.2rem; /* Adjust paragraph font size */
+  margin-bottom: 20px;
+}
